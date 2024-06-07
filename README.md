@@ -48,35 +48,14 @@ security practices, and should not be used in production.
    and visit [http://localhost:5000/ping](http://localhost:5000/ping) in your
    browser. You should see `'pong'`.
 
-## Deep dive
+## Exercises
 
 Take a look in the `exercises` directory for information on the deep dives. As
 usual, Day 1 Exercise 1 is labeled `d1e1` and can be tested with
-`npm run test:d1e1`.
+`npm run test:d1e1`. Everything you need (including documentation URLs) should
+be in the `exercises` folder.
 
-You will find documentation URLs in the exercise files.
+## Workshops
 
-### Day 1
-
-These exercises guide you through setting up the connection to the database, and
-creating the first few model methods. Head to `exercises/d1e1.md` to get
-started.
-
-Once you have completed the exercises, you should be able to start working in
-the `models` folder, so head to `CONTRIBUTING.md` for more information.
-
-### Day 2
-
-The exercises give you some practice creating and configuring an Express app.
-Head to `exercises/d2e1.js` to get started.
-
-Once you have finished, you should be able to start working on the API
-endpoints, so head to `CONTRIBUTING.md` for more information.
-
-### Day 3
-
-The exercises will demonstrate some ways we can refactor our app to make it more
-robust and better organised. Head to `exercises/d3e1.js` to get started.
-
-When you're done, you are ready to refactor the Nozama app using routes and
-error handling. Head to `CONTRIBUTING.md` for more information.
+Read `CONTRIBUTING.md` to understand how to work on this project - it contains
+all the information you will need to work on Nozama.
