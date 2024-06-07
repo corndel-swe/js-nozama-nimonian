@@ -19,14 +19,34 @@ security practices, and should not be used in production.
 
 ## Getting started
 
-1. Fork this repo. If working in a team, one person should fork it and make sure
-   to add your teammates as collaborators on this fork.
+1. Make sure your machine is set up according to the instructions with
 
-2. Clone the repo and install dependencies:
+   - [bash](https://tech-docs.corndel.com/bash/)
 
-   ```
+   - [vscode](https://tech-docs.corndel.com/vscode/)
+
+   - [git](https://tech-docs.corndel.com/git/)
+
+   - [node & npm](https://tech-docs.corndel.com/js/installation.html)
+
+1. Clone the repository (i.e. download it), so you have a copy on your machine.
+
+1. Once cloned, open a terminal in the project folder, and run
+
+   ```bash
    npm install
    ```
+
+   to install dependencies.
+
+1. Run the command
+
+   ```bash
+   npm run dev
+   ```
+
+   and visit [http://localhost:5000/ping](http://localhost:5000/ping) in your
+   browser. You should see `'pong'`.
 
 ## Deep dive
 
