@@ -83,9 +83,29 @@ Merge conflicts are inevitable, but to help avoid them:
 - pull frequently with `git pull origin main` to make sure your branch stays up
   to date and you integrate others' changes early
 
-- push to your branch frequently with `git push`
+- push to your branch frequently with `git push` so others are aware of changes
+  you have made
 
-When conflicts inevitably occur, 
+## Testing the model layer
+
+There are some tests for the model layer which you can run with
+
+```bash
+npm run test:models
+```
+
+If you want to focus on, for example, just the `User` model, you can replace the
+top-level `describe` in `Review.test.js` with `xdescribe` and these tests will
+be skipped.
+
+> [!IMPORTANT]
+>
+> The tests don't pass individual parameters to the models, like
+> `User.create(firstName, lastName)`. Instead, they pass a single object, like
+> `User.create(newUser)`.
+>
+> When writing the `User.create(newUser)` method, you should use
+> `newUser.firstName` and so on.
 
 ## Backlog
 

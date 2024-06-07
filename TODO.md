@@ -37,9 +37,11 @@ same process as the previous days to complete them.
 
 Some refactors you should consider:
 
-- Splitting the API into separate route files
+- Splitting the API into
+  [separate route files](https://tech-docs.corndel.com/express/routing.html)
 
-- Using custom errors and error handling
+- Using
+  [custom errors and error handling](https://tech-docs.corndel.com/express/sending-errors.html)
 
 - Adding validation to the API
 
