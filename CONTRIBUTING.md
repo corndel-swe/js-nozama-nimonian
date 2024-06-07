@@ -5,11 +5,21 @@
 The backlog for this repo is available as a
 [Trello board](https://trello.com/b/xKHlc7Xy/nozama). This is a public template.
 
-1. One person on your team should create a new board from this template
+- [ ] One person on your team should create a new board from this template
 
-2. Then add the rest of your team as members.
+- [ ] Then add the rest of your team as members.
 
 You can then use this board to track your progress throughout the workshop.
+
+## API Documentation
+
+The [API documentation](https://nozama-api.netlify.app/) contains information
+about the endpoints that this project is planning to expose. You can use this to
+understand the inputs and outputs of each endpoint.
+
+This documentation gives you an idea of what the API will look like when it is
+complete, and will be a useful reference as you work on the database and
+creating the API itself.
 
 ## Database schema
 
@@ -62,54 +72,22 @@ erDiagram
     }
 ```
 
-## API Documentation
+## Merge conflicts
 
-The [API documentation](https://nozama-api.netlify.app/) contains information
-about the endpoints that this project is planning to expose. You can use this to
-understand the inputs and outputs of each endpoint.
+Merge conflicts are inevitable, but to help avoid them:
 
-This documentation gives you an idea of what the API will look like when it is
-complete, and will be a useful reference as you work on the database and
-creating the API itself.
+- communicate and plan to avoid people working on the same files
 
-## Workshops
+- don't push to `main` - use branches and pull requests
 
-## Day 1
+- pull frequently with `git pull origin main` to make sure your branch stays up
+  to date and you integrate others' changes early
 
-Focus on completing the model layer for the application.
+- push to your branch frequently with `git push`
 
-Choose an item from the Trello board move it to doing, so your teammates know
-which items are being worked on. You can also assign the card to yourself.
+When conflicts inevitably occur, 
 
-Each item has a checklist. You won't be able to fully complete any cards today
-because they involve adding API endpoints, which we'll be learning about
-tomorrow. However, once you're done with the model layer of your chosen card,
-you can move the card to "Blocked" and pick up a new one.
+## Backlog
 
-## Day 2
-
-We're ready to start adding endpoints to our application.
-
-You probably have a few cards in the "Blocked" column. Today, you'll be
-finishing them off. Take a card from "Blocked" and put it in "Doing".
-
-When you're done with a card, use the "Review" and "Done" columns to help
-organise your teamwork.
-
-## Day 3
-
-This workshop is all about refactoring to improve our app. Based on what you've
-learned today, feel free to add new cards to the backlog and then follow the
-same process as the previous days to complete them.
-
-Some things you might want to consider:
-
-- Using custom errors and error handling
-
-- Splitting the API into separate route files
-
-- Adding validation to the API
-
-- Adding new endpoints to the API
-
-- Adding more test coverage
+Visit `TODO.md` to find out what's on the backlog - all the workshop details can
+be found here.
