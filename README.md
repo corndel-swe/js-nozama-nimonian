@@ -17,8 +17,6 @@ with the Nozama database, so they can build their own applications on top of it.
 Please note that this repo is for learning purposes. It contains plenty of bad
 security practices, and should not be used in production.
 
-Change.
-
 ## Getting started
 
 1. Make sure your machine is set up according to the instructions with
